@@ -1,0 +1,102 @@
+/* Theme Colors */
+:root {
+    --dark-blue: #000B4F;
+    --vista-blue: #20368F;
+    --bright-gray: #EBEBEB;
+    --dark-silver: #6D6D6D;
+    --dark-charcoal: #323232;
+}
+
+/* Main Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bright-gray);
+    color: var(--dark-charcoal);
+}
+
+/* Header Styles */
+header {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 1.25em;
+}
+
+header img#logo {
+    float: left;
+    width: 7.5em;
+    height: 5.2em;
+}
+
+header h1 {
+    float: right;
+    margin: 0;
+    font-size: 3em;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: var(--dark-silver);
+    clear: both;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--vista-blue);
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    padding: 1.25em;
+}
+
+#indexButtons button {
+    margin: 0.8em;
+    font-size: 1.2em;
+    padding: .5em;
+   
+}
+
+footer {
+    background-color: var(--dark-charcoal);
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+
+/* Contact Form Styles */
+.contact-form {
+    max-width: 20em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+.contact-form input[type="submit"] {
+    background-color: rgb(4, 57, 113);
+    color: white;
+}
+
